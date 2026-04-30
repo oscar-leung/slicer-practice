@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Slicer scene files (often huge; keep manually if needed)
+*.mrml
+*.mrb
+
+# Large derived/intermediate volumes — commit deliberately if needed
+*.nrrd.tmp
+*.nii.tmp
+
+# Editor cruft
+.idea/
+.vscode/
+*.swp
+
+# Python (in case you start scripting)
+__pycache__/
+*.pyc
+.venv/
+venv/
